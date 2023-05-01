@@ -1,0 +1,609 @@
+*{
+    margin :0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+header{
+    z-index: 999;
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s ease;
+}
+
+header .brand{
+    color:black;
+    font-size:1.5em;
+    font-weight:700;
+    text-transform:uppercase;
+    text-decoration:none;
+    padding: 15px 20px;
+}
+
+header .navigation{
+    position:realtive;
+    padding: 15px 20px;
+
+}
+
+header .navigation .navigation-items a{
+    position:relative;
+    color:black;
+    font-size:1em;
+    font-weight:500;
+    text-decoration: none;
+    margin-left: 30px;
+    transition: 0.10s ease;
+    
+}
+
+header  .navigation .navigation-items a:before{
+    content:'';
+    position:absolute;
+    background-color: black;
+    width:0;
+    height:3px;
+    bottom:0;
+    left:0;
+    transition:0.3s ease;
+}
+header  .navigation .navigation-items a:hover:before{
+    width:100%;
+
+}
+
+.home{ 
+    position:relative;
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: aquamarine;
+}
+
+.home .content h1{
+    font-size: 4em;
+    font-weight:900;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 75px;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 1040px){
+    header{
+
+        padding:12px  20px;
+        transition: 0.5s ease;
+    }
+}
+
+.back-video
+{
+    position: absolute;
+    right:0;
+    bottom:0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio:16/9){
+    .background-clip{
+        width:100%;
+        height:auto;
+    }
+}
+
+@media (max-aspect-ratio:16/9){
+    .background-clip{
+        width:auto;
+        height:100%;
+    }
+}
+
+section .onvideo{
+    position: center;
+    padding: 200px 700px;
+}
+.htwo{
+    position: absolute;
+    text-align: center;
+}
+marquee{
+    color: rgb(118, 15, 208);
+    
+}
+.is{
+    padding:75px 300px;
+}
+ 
+.ccbclub {
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 20px;
+  margin-right: 10px;
+  box-shadow:0 8px 16px 0 rgba(0,0,0,0.2)
+
+}
+.ccbclub:hover{
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2)
+}
+.ccbclub img {
+  width: 100%;
+  height: 100px;
+}
+
+.ccbclub h2 {
+  font-size: 1.5rem;
+}
+
+.ccbclub p {
+  font-size: 1rem;
+}
+
+.ccbclub button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 10px;  
+  
+}
+
+.ccbclub {
+  width: 20%;
+}
+
+.cbbclub {
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding:  20px;
+  margin-left: 20px;
+  margin-right: 10px;
+  box-shadow:0 8px 16px 0 rgba(0,0,0,0.2)
+
+}
+.cbbclub:hover{
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2)
+}
+.cbbclub img {
+  width: 100%;
+  height: 100px;
+}
+
+.cbbclub h2 {
+  font-size: 1.5rem;
+}
+
+.cbbclub p {
+  font-size: 1rem;
+}
+
+.cbbclub button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+
+.cbbclub {
+  width: 20%;
+}
+
+  .bali {
+          width:20px;
+          margin: 20px;
+  }
+  
+  .bali {
+    background-color: rgb(238, 242, 242);
+    border: 1px solid #88cc01;
+    border-radius: 15px;
+    padding:  20px;
+    margin-left: 20px;
+    margin-right: 10px;
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2)
+  
+  }
+  .bali:hover{
+      box-shadow:0 8px 16px 0 rgba(223, 203, 20, 0.2)
+  }
+  .bali img {
+    width: 110%;
+    height: 150px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+  .bali h1{
+    color: #eb1616;
+  }
+  .bali h2 {
+    font-size: 1.5rem;
+  }
+  
+  .bali p {
+    font-size: 1rem;
+  }
+  
+  .bali button {
+    background-color: #d19b25;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+
+  
+  .bali {
+    width: 20%;
+  }
+
+.bad{
+  padding-top: 40px;
+  display:flex;
+  height: 350px;
+}
+
+
+.good{
+  padding-top: 50px;
+  display:flex;
+  height: 350px;
+}
+.box{
+  justify-content: center;
+  align-items: center ;
+  display: flex;
+
+}
+.box img{
+  width:30px;
+  height: 30px;
+}
+.header1{
+  background-color: #c0d0d6;
+}
+header .navbar ul {
+  list-style: none;
+}
+
+header .navbar ul li {
+  position: relative;
+  float: left;
+}
+
+header .navbar ul li a {
+  font-size: 16px;
+  padding: 17px;
+  color: #333;
+  display: block;
+}
+
+header .navbar ul li a:hover {
+  background: #333;
+  color: #fff;
+}
+.containers{
+  padding-top: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 10px;  
+}
+/*
+@media only screen and (max-width :768px ){
+  *{
+    margin :0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+header{
+    z-index: 999;
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s ease;
+}
+
+header .brand{
+    color:black;
+    font-size:1.5em;
+    font-weight:700;
+    text-transform:uppercase;
+    text-decoration:none;
+    padding: 15px 20px;
+}
+
+header .navigation{
+    position:realtive;
+    padding: 15px 20px;
+
+}
+
+header .navigation .navigation-items a{
+    position:relative;
+    color:black;
+    font-size:1em;
+    font-weight:500;
+    text-decoration: none;
+    margin-left: 30px;
+    transition: 0.10s ease;
+    
+}
+
+header  .navigation .navigation-items a:before{
+    content:'';
+    position:absolute;
+    background-color: black;
+    width:0;
+    height:3px;
+    bottom:0;
+    left:0;
+    transition:0.3s ease;
+}
+header  .navigation .navigation-items a:hover:before{
+    width:100%;
+
+}
+
+.home{ 
+    position:relative;
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: aquamarine;
+}
+
+.home .content h1{
+    font-size: 4em;
+    font-weight:900;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 75px;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 1040px){
+    header{
+
+        padding:12px  20px;
+        transition: 0.5s ease;
+    }
+}
+
+.back-video
+{
+    position: absolute;
+    right:0;
+    bottom:0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio:16/9){
+    .background-clip{
+        width:100%;
+        height:auto;
+    }
+}
+
+@media (max-aspect-ratio:16/9){
+    .background-clip{
+        width:auto;
+        height:100%;
+    }
+}
+
+section .onvideo{
+    position: center;
+    padding: 200px 700px;
+}
+.htwo{
+    position: absolute;
+    text-align: center;
+}
+marquee{
+    color: rgb(118, 15, 208);
+    
+}
+.is{
+    padding:75px 300px;
+}
+ 
+.ccbclub {
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 20px;
+  margin-right: 10px;
+  box-shadow:0 8px 16px 0 rgba(0,0,0,0.2);
+  flex-basis: 100%;
+  max-width: 100%;
+  
+
+
+}
+.ccbclub:hover{
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2)
+}
+.ccbclub img {
+  width: 100%;
+  height: 100px;
+}
+
+.ccbclub h2 {
+  font-size: 1.5rem;
+}
+
+.ccbclub p {
+  font-size: 1rem;
+}
+
+.ccbclub button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.container {
+  flex-direction: column;
+  
+  
+}
+
+.ccbclub {
+  width: 20%;
+}
+
+.cbbclub {
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding:  20px;
+  margin-left: 20px;
+  margin-right: 10px;
+  box-shadow:0 8px 16px 0 rgba(0,0,0,0.2)
+
+}
+.cbbclub:hover{
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2)
+}
+.cbbclub img {
+  width: 100%;
+  height: 100px;
+}
+
+.cbbclub h2 {
+  font-size: 1.5rem;
+}
+
+.cbbclub p {
+  font-size: 1rem;
+}
+
+.cbbclub button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+
+.cbbclub {
+  width: 20%;
+}
+
+  .bali {
+    width: 20%;
+  }
+  
+  .bali {
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding:  20px;
+    margin-left: 20px;
+    margin-right: 10px;
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2)
+  
+  }
+  .bali:hover{
+      box-shadow:0 8px 16px 0 rgba(0,0,0,0.2)
+  }
+  .bali img {
+    width: 110%;
+    height: 150px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+  .bali h1{
+    color: #eb1616;
+  }
+  .bali h2 {
+    font-size: 1.5rem;
+  }
+  
+  .bali p {
+    font-size: 1rem;
+  }
+  
+  .bali button {
+    background-color: #d19b25;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+
+  
+  .bali {
+    width: 20%;
+  }
+
+.bad{
+  padding-top: 40px;
+  display:flex;
+  height: 350px;
+}
+
+
+.good{
+  padding-top: 50px;
+  display:flex;
+  height: 350px;
+}
+.box{
+  justify-content: center;
+  align-items: center ;
+  display: flex;
+
+}
+.box img{
+  width:30px;
+  height: 30px;
+}
+.header1{
+  height:100vh;
+
+  background-image:linear-gradient(rgba(220, 244, 150, 0.5),rgba(220, 228, 138, 0.5)),url(https://www.fabhotels.com/blog/wp-content/uploads/2018/06/600x400-7.jpg);
+  background-size: cover;
+  background-position: center;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+header .navbar ul {
+  list-style: none;
+}
+
+header .navbar ul li {
+  position: relative;
+  float: left;
+}
+
+header .navbar ul li a {
+  font-size: 16px;
+  padding: 17px;
+  color: #333;
+  display: block;
+}
+
+header .navbar ul li a:hover {
+  background: #333;
+  color: #fff;
+}
+
+}*/
